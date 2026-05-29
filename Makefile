@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c17 -Isrc -O2
 TARGET = tracer
-SRC = src/main.c src/process.c src/syscalls.c src/tracer.c
+SRC = src/main.c src/process.c src/syscalls.c src/tracer.c src/eventbuf.c
 
 all: build
 
